@@ -1,0 +1,15 @@
+# ============================================================================
+# Local bridge service dependencies (runs on the scan-station PC)
+# ============================================================================
+Flask==3.0.3
+flask-cors==5.0.0
+python-dotenv==1.0.1
+
+# --- Fingerprint SDK (choose the one matching your sensor) ---
+# ZKTeco (ZK9500 / SLK20R, Windows):
+#   pyzkfp==0.0.8
+# SecuGen (Hamster Pro, Windows):
+#   pysecugen   (or call the vendor DLL via ctypes — see adapter notes)
+#
+# Install the one you use, e.g.:
+#   pip install pyzkfp
